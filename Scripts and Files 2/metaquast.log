@@ -1,0 +1,20 @@
+/sw/bioinfo/quast/5.0.2/rackham/bin/metaquast.py -t 2 /home/prze1839/genome_analysis/DNA/megahit/final.contigs.fa -o /home/prze1839/genome_analysis/DNA/MetaQuast_results/assembly_evaluation --max-ref-num 0
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.88.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2023-05-16 19:15:08
+
+Logging to /home/prze1839/genome_analysis/DNA/MetaQuast_results/assembly_evaluation/metaquast.log
+
+Contigs:
+  Pre-processing...
+  /home/prze1839/genome_analysis/DNA/megahit/final.contigs.fa ==> final.contigs
+
+NOTICE: Maximum number of references (--max-ref-number) is set to 0, search in SILVA 16S rRNA database is disabled
+
+NOTICE: No references are provided, starting regular QUAST with MetaGeneMark gene finder
